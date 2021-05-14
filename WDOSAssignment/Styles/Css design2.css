@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Goblin One', cursive;
+}
+.header{
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../Images/background\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.header h1{
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}   
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.Animals-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.Animals-col img{
+    width: 100%;
+}
+.Animals-col h1{
+    padding-top: 0;
+}
+.Animals-col p{
+    padding: 15px 0 25px;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.horizontal{
+    width: 500px;
+    height: auto;
+}
+
+
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;   
+}

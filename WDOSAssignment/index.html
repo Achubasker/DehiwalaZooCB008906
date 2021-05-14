@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dehiwala Zoo</title>
+    <link rel="stylesheet" href="Styles/Styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Goblin+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Animals and Plants.html">Animals and Plants</a></li>
+                    <li><a href="Activities.html">Activities</a></li>
+                    <li><a href="Contact Us.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            
+        </nav>
+
+    <div class="text-box">
+        <h1>DEHIWALA ZOO</h1>
+        <p>Conserve . Educate . Preserve</p>
+        <a href="Contact Us.html"class="hero-btn">Contact Us To Know More</a>
+    </div>
+
+    </section>
+
+<!----Information---->
+
+<section class = "Information">
+    <h1>About Us</h1>
+    <p>The Dehiwala National Zoo, which has a remarkable collection of exotic and indigenous fauna, is one of the oldest Zoos in Asia.</p>
+
+    <div class="row">
+        <div class="Information-col">
+            <h3>More Info</h3>
+            <p>About</p>
+            <p>FAQ</p>
+            <p>Privacy Policy</p>
+            <p>Help</p>
+            <p>Terms & Conditions </p>
+        </div>
+        <div class="Information-col">
+            <h3>Contact Info</h3>
+            <p>No.85,Main Street,Galaha</p>
+            <p>0763787915</p>
+            <p>achu.basker07@gmail.com</p>
+        </div>
+    </div>
+
+    <a href="CssDesign1.html"class="hero-btn d1">Design 1</a>
+    <a href="CssDesign2.html"class="hero-btn d1">Design 2</a>
+</section>
+
+ 
+    <script>
+
+         var navLinks = document.getElementById("navLinks");
+
+         function showMenu(){
+             navLinks.style.right = "0";
+         }
+         function hideMenu(){
+             navLinks.style.right = "-200px";
+         }
+
+
+    </script>
+
+    <!----footer-->
+
+    <section class="footer">
+        <h4> The Only Zoo In Colombo</h4>
+        <div class="Footer-Ref">
+            <h3>REFERENCE</h3>
+            <p>Images were obtained from these references:<br>freepik<br>National Geographic<br>SriLankaFinder</p>
+
+        </div>
+        <p>Copyright Content 2021 &#169 designed by Asvini</p>
+         
+    </section>
+  
+
+
+    
+
+
+</body>
+</html>

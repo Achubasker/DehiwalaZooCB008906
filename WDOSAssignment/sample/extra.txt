@@ -1,0 +1,68 @@
+html
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dehiwala Zoo</title>
+    <link rel="stylesheet" href="Styles/Styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Goblin+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+
+</head>
+<body>
+    <!-- nav -->
+    <section class="Theme">
+        <nav>
+            <div class="nav-links" id="navLinks">
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Animals and Plants.html">Animals and Plants</a></li>
+                    <li><a href="Activities.html">Activities</a></li>
+                    <li><a href="Contact Us.html">Contact Us</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+
+    <div class="text-box">
+        <h1>DEHIWALA ZOO</h1>
+        <p>Conserve . Educate . Preserve</p>
+    
+    </div>
+</section>
+
+
+css
+
+
+/*----css design 1---*/
+.Theme{
+    min-height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../Images/background\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}  
+.nav-links ul li::after{
+    content:'';
+    width:0%;
+    height: 2px;
+    background: lightslategray;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.text-box{
+     width: 90%;
+     color:black;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50% , -50%);
+     text-align: left;
+}
